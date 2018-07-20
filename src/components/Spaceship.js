@@ -1,5 +1,5 @@
 import React from 'react';
 
-class Spaceship extends React.Component {
+export default class Spaceship extends React.Component {
   
 }
