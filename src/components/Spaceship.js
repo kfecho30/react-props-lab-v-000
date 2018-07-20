@@ -2,9 +2,9 @@ import React from 'react';
 
 export default class Spaceship extends React.Component {
   <h1>{this.props.name}</h1>
-  <p>{this.props.speed}</p> (number, defaults to slow)
-hasRockets (boolean, defaults to false)
-colors (array of strings, defaults to ['black', 'red'])
+  <p>{this.props.speed}</p>
+  <p>{this.props.hasRockets}</p>
+  <p>{this.props.colors}.join(', ')</p>
 }
 
 Spaceship.defaultProps{
